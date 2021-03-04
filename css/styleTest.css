@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'byekan';
+    src: url('../text-graphy-fonts/AFarhood.ttf') format('ttf');
+    src: url('../text-graphy-fonts/BYekan.woff') format('woff'), 
+         url('../text-graphy-fonts/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    body{
+    font-family: "byekan";
+    }
+  
