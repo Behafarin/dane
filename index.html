@@ -3,17 +3,22 @@
 
 <head>
   <style>
-    
+
+  .vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
     </style>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Amoeba Bootstrap Template - Home</title>
+  <title>دانه</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <link rel="stylesheet" href="css/styleTest.css">
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="capture.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -49,26 +54,32 @@
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
     
       </div>
-
-      <nav class="nav-menu float-left d-none d-lg-block">
+    
+      <nav class="nav-menu  d-none d-lg-block flex-column-reverse flex-md-row" dir=rtl>
+       
         <ul >
-          <li><button type="button" style="padding-bottom: 4px; margin:10px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="btn btn-success">&nbsp; &nbsp;ثبت نام  &nbsp; &nbsp;</button></li>
           
-          <li><button type="button" style="padding-bottom: 4px; margin:10px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " class="btn btn-primary">&nbsp; &nbsp;ورود&nbsp; &nbsp;</button></li>
-          <li ><a class="font-weight-bolder" href="#contact" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">ارتباط با ما </a></li>
+          <li><button type="button" style="padding-bottom: 4px; margin:10px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="btn btn-success">&nbsp; &nbsp;ثبت نام  &nbsp; &nbsp;</button></li>
+       
+          <li><button type="button" style="padding-bottom: 4px; margin:10px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " class="btn btn-primary margin-left">&nbsp; &nbsp;ورود&nbsp; &nbsp;</button></li>
+       
+        <span  class="form-inline my-2 my-lg-0" >   
+          <li><a class="font-weight-bolder" href="#portfolio" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">گلریزان</a></li>
+          <li><a class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="#faq">سوالات متداول</a></li>
+         
           <li ><a class="font-weight-bolder" href="#about" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">درباره ما</a></li>
           <li><a class="font-weight-bolder" href="#team" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">اعضای تیم</a></li>
-          <li><a class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="#faq">سوالات متداول</a></li>
+          <li ><a class="font-weight-bolder" href="#contact" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">ارتباط با ما </a></li> 
          <!-- <li><a href="#services">Services</a></li>-->
-          <li><a class="font-weight-bolder" href="#portfolio" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">گلریزان</a></li>
-         
           
+         
+        </span>   
          
           
         </ul>
+      
       </nav><!-- .nav-menu -->
-
-    </div>
+      
   </header><!-- End #header -->
 
   <!-- ======= Hero Section ======= -->
@@ -154,16 +165,16 @@
           <h2 class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">گلریزان ها</h2>
         </div>
 
-        <div class="row">
+        <div class="row " >
           <div class="col-lg-12" dir="RTL">
             <ul id="portfolio-flters" >
               <li data-filter="*" class="filter-active font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">همه</li>
-              <li data-filter=".filter-app" class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">درمان</li>
-              <li data-filter=".filter-app" class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">تحصیل کودکان کار</li>
-              <li data-filter=".filter-card" class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">جهیزیه</li>
-              <li data-filter=".filter-web"class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">اشتغال</li>
+              <li data-filter=".filter-darman" class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">درمان</li>
+              <li data-filter=".filter-tahsil" class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">تحصیل کودکان کار</li>
+              <li data-filter=".filter-jahiziye" class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">جهیزیه</li>
+              <li data-filter=".filter-eshteghal"class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">اشتغال</li>
               
-            </ul>
+            </ulpull-right>
           </div>
         </div>
  
@@ -171,171 +182,196 @@
      
           <div class="row portfolio-container">
      
-          <div class="col-12 col-md-6 col-lg-3 filter-app">
-            <div class="card" >
-      
-              <img class="card-img-top" src="https://via.placeholder.com/350x280/87CEFA/000000" alt="Unsplash">
-      
-              <div class="card-header px-4 pt-4">
-                <div class="card-actions float-right">
-                  <div class="dropdown show">
-                    <a href="#" data-toggle="dropdown" data-display="static">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
-                    </a>
-      
-                    <div class="dropdown-menu dropdown-menu-right">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </div>
-                </div>
-                <h5 class="card-title mb-0">Fix form validation</h5>
-                <div class="badge bg-warning my-2">In progress</div>
-              </div>
-              <div class="card-body px-4 pt-2">
-                <p>Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam
-                  ultrices mauris.</p>
-      
-                <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-                <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item px-4 pb-4">
-                  <p class="mb-2 font-weight-bold">Progress <span class="float-right">65%</span></p>
-                  <div class="progress progress-sm">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 filter-app">
+          <div class="col-12 col-md-6 col-lg-3 filter-darman float-right">
             <div class="card">
       
-              <img class="card-img-top" src="https://via.placeholder.com/350x280/FFB6C1/000000" alt="Unsplash">
+              <img class="card-img-top" src="download.png" alt="Unsplash">
       
               <div class="card-header px-4 pt-4">
-                <div class="card-actions float-right">
-                  <div class="dropdown show">
+                <div class="card-actions">
+                <!--   <div class="dropdown show">
                     <a href="#" data-toggle="dropdown" data-display="static">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
                     </a>
       
-                    <div class="dropdown-menu dropdown-menu-right">
+                   <div class="dropdown-menu dropdown-menu-right">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                  </div>
+                  </div>-->
                 </div>
-                <h5 class="card-title mb-0">New company logo</h5>
-                <div class="badge bg-danger my-2">On hold</div>
+                <h5 class="card-title mb-0 text-right" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">&nbsp;&nbsp;خیریه ابولفضل</h5>
+                <div class="badge bg-danger my-2 text-right float-right " style="color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">متوقف</div>
               </div>
-              <div class="card-body px-4 pt-2">
-                <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
-                  sed ipsum.</p>
-      
-                <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
+              <div class="card-body px-4 pt-2 text-right" >
+                <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">مددجو  جز یارانه هیچ منبع درآمدی ندارن این مددجوبرای شغل بافندگی (بافندگی لباس گرم زمستانه)نیاز به مواد اولیه (نیاز ب نخ و میل و دکمه و زیپ و کاموا) دارد تا بتواند شغل خانگی خود را براه بندازد</p>
+               <!-- <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
                 <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
+                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28"> -->
+                <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">  مبلغ مورد نیاز: 5 میلیون تومان</h5>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item px-4 pb-4">
-                  <p class="mb-2 font-weight-bold">Progress <span class="float-right">20%</span></p>
-                  <div class="progress progress-sm">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 filter-app">
-            <div class="card">
-      
-              <img class="card-img-top" src="https://via.placeholder.com/350x280/20B2AA/000000" alt="Unsplash">
-      
-              <div class="card-header px-4 pt-4">
-                <div class="card-actions float-right">
-                  <div class="dropdown show">
-                    <a href="#" data-toggle="dropdown" data-display="static">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
-                    </a>
-      
-                    <div class="dropdown-menu dropdown-menu-right">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </div>
-                </div>
-                <h5 class="card-title mb-0">Upgrade to latest Maps API</h5>
-                <div class="badge bg-success my-2">Finished</div>
-              </div>
-              <div class="card-body px-4 pt-2">
-                <p>Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam
-                  ultrices mauris.</p>
-      
-                <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-                <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item px-4 pb-4">
-                  <p class="mb-2 font-weight-bold">Progress <span class="float-right">100%</span></p>
-                  <div class="progress progress-sm">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 filter-web">
-            <div class="card">
-      
-              <img class="card-img-top" src="https://via.placeholder.com/350x280/87CEFA/000000" alt="Unsplash">
-      
-              <div class="card-header px-4 pt-4">
-                <div class="card-actions float-right">
-                  <div class="dropdown show">
-                    <a href="#" data-toggle="dropdown" data-display="static">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
-                    </a>
-      
-                    <div class="dropdown-menu dropdown-menu-right">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </div>
-                </div>
-                <h5 class="card-title mb-0">Refactor backend templates</h5>
-                <div class="badge bg-danger my-2">On hold</div>
-              </div>
-              <div class="card-body px-4 pt-2">
-                <p>Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat
-                  at massa.</p>
-      
-                <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-                <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item px-4 pb-4">
-                  <p class="mb-2 font-weight-bold">Progress <span class="float-right">0%</span></p>
+                  <p class="mb-2 font-weight-bold">0%<span class="float-right text-right">0 rial </span></p>
                   <div class="progress progress-sm">
                     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
                     </div>
                   </div>
                 </li>
               </ul>
+              <div class="d-flex justify-content-center">
+              <ul class="list-group list-group-flush ">
+                <li class="list-group-item px-4 pb-4">
+                  <button type="button" style="padding-bottom: 4px; margin:10px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " class="btn btn-success">&nbsp; &nbsp;پرداخت&nbsp; &nbsp;</button>
+                  
+                </li>
+              </ul>
+            </div>
             </div>
           </div>
-        </div>
+          <div class="col-12 col-md-6 col-lg-3 filter-tahsil">
+            <div class="card">
+      
+              <img class="card-img-top" src="download.png" alt="Unsplash">
+      
+              <div class="card-header px-4 pt-4">
+                <div class="card-actions float-left">
+                <!--   <div class="dropdown show">
+                    <a href="#" data-toggle="dropdown" data-display="static">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                    </a>
+      
+                   <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>-->
+                </div>
+                <h5 class="card-title mb-0 text-right" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">&nbsp;&nbsp;خیریه ابولفضل</h5>
+                <div class="badge bg-danger my-2 text-right float-right " style="color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">متوقف</div>
+              </div>
+              <div class="card-body px-4 pt-2 text-right" >
+                <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">مددجو  جز یارانه هیچ منبع درآمدی ندارن این مددجوبرای شغل بافندگی (بافندگی لباس گرم زمستانه)نیاز به مواد اولیه (نیاز ب نخ و میل و دکمه و زیپ و کاموا) دارد تا بتواند شغل خانگی خود را براه بندازد</p>
+               <!-- <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
+                <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
+                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28"> -->
+                <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">  مبلغ مورد نیاز: 5 میلیون تومان</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item px-4 pb-4">
+                  <p class="mb-2 font-weight-bold">0%<span class="float-right text-right">0 rial </span></p>
+                  <div class="progress progress-sm">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-center">
+              <ul class="list-group list-group-flush ">
+                <li class="list-group-item px-4 pb-4">
+                  <button type="button" style="padding-bottom: 4px; margin:10px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " class="btn btn-success">&nbsp; &nbsp;پرداخت&nbsp; &nbsp;</button>
+                  
+                </li>
+              </ul>
+            </div>
+            </div>          </div>
+          <div class="col-12 col-md-6 col-lg-3 filter-jahiziye">
+            <div class="card">
+      
+              <img class="card-img-top" src="download.png" alt="Unsplash">
+      
+              <div class="card-header px-4 pt-4">
+                <div class="card-actions float-left">
+                <!--   <div class="dropdown show">
+                    <a href="#" data-toggle="dropdown" data-display="static">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                    </a>
+      
+                   <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>-->
+                </div>
+                <h5 class="card-title mb-0 text-right" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">&nbsp;&nbsp;خیریه ابولفضل</h5>
+                <div class="badge bg-danger my-2 text-right float-right " style="color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">متوقف</div>
+              </div>
+              <div class="card-body px-4 pt-2 text-right" >
+                <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">مددجو  جز یارانه هیچ منبع درآمدی ندارن این مددجوبرای شغل بافندگی (بافندگی لباس گرم زمستانه)نیاز به مواد اولیه (نیاز ب نخ و میل و دکمه و زیپ و کاموا) دارد تا بتواند شغل خانگی خود را براه بندازد</p>
+               <!-- <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
+                <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
+                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28"> -->
+                <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">  مبلغ مورد نیاز: 5 میلیون تومان</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item px-4 pb-4">
+                  <p class="mb-2 font-weight-bold">0%<span class="float-right text-right">0 rial </span></p>
+                  <div class="progress progress-sm">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-center">
+              <ul class="list-group list-group-flush ">
+                <li class="list-group-item px-4 pb-4">
+                  <button type="button" style="padding-bottom: 4px; margin:10px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " class="btn btn-success">&nbsp; &nbsp;پرداخت&nbsp; &nbsp;</button>
+                  
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 filter-eshteghal">
+            <div class="card">
+      
+              <img class="card-img-top" src="download.png" alt="Unsplash">
+      
+              <div class="card-header px-4 pt-4">
+                <div class="card-actions float-left">
+                <!--   <div class="dropdown show">
+                    <a href="#" data-toggle="dropdown" data-display="static">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                    </a>
+      
+                   <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>-->
+                </div>
+                <h5 class="card-title mb-0 text-right" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">&nbsp;&nbsp;خیریه ابولفضل</h5>
+                <div class="badge bg-danger my-2 text-right float-right " style="color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">متوقف</div>
+              </div>
+              <div class="card-body px-4 pt-2 text-right" >
+                <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">مددجو  جز یارانه هیچ منبع درآمدی ندارن این مددجوبرای شغل بافندگی (بافندگی لباس گرم زمستانه)نیاز به مواد اولیه (نیاز ب نخ و میل و دکمه و زیپ و کاموا) دارد تا بتواند شغل خانگی خود را براه بندازد</p>
+               <!-- <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
+                <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28">
+                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle mr-1" alt="Avatar" width="28" height="28"> -->
+                <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large;">  مبلغ مورد نیاز: 5 میلیون تومان</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item px-4 pb-4">
+                  <p class="mb-2 font-weight-bold">0%<span class="float-right text-right">0 rial </span></p>
+                  <div class="progress progress-sm">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-center">
+              <ul class="list-group list-group-flush ">
+                <li class="list-group-item px-4 pb-4">
+                  <button type="button" style="padding-bottom: 4px; margin:10px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " class="btn btn-success">&nbsp; &nbsp;پرداخت&nbsp; &nbsp;</button>
+                  
+                </li>
+              </ul>
+            </div>
+            </div>
       </div>
         <!--<div class="row portfolio-container">
 
@@ -463,65 +499,56 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
+          <h2 class="font-weight-bolder" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">سوالات متداول</h2>
         </div>
 
         <ul class="faq-list">
 
           <li>
-            <a data-toggle="collapse" class="" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="icofont-simple-up"></i></a>
-            <div id="faq1" class="collapse show" data-parent=".faq-list">
+            <a data-toggle="collapse" class="text-right" href="#faq1"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">دانه وابسته به کجاست؟ <i class="icofont-simple-up"></i></a>
+            <div id="faq1" class="collapse show text-right" data-parent=".faq-list"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
               <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-              </p>
+                دانه دقیقا به هیچ جایی وابسته نیست، ما فکر می کنیم این جور کارها رو باید همه مردم خودشون انجام بدن، و منتظر هیچ جایی مثل دولت یا شهرداری یا حتی کمیته امداد و بهزیستی نمونن. یعنی دانه رو درحقیقت ان‌جی‌او‌ها و خیریه ها اداره می‌کنن              </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="icofont-simple-up"></i></a>
-            <div id="faq2" class="collapse" data-parent=".faq-list">
+            <a data-toggle="collapse" class="text-right" href="#faq2"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">دانه اصلا چیه و خلاصه چکار می‌کنه؟ <i class="icofont-simple-up"></i></a>
+            <div id="faq2" class="collapse text-right" data-parent=".faq-list"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
+                سامانه دانه قابل استفاده توسط همه مراکز خدمت‌رسان مثل خیریه‌ها، مساجد، گروه‌های جهادی، ان‌جی‌او‌ها و ... است. این نرم‌افزار داره بستری فراهم می‌کنه تا این مراکز به‌صورت کاملا رایگان و تضمین‌شده از قابلیت‌ها و امکاناتی که داره برای یاری رسوندن موثرتر و سریع‌تر به نیازمندا بهره‌مند بشن.            </div>
           </li>
-
           <li>
-            <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="icofont-simple-up"></i></a>
-            <div id="faq3" class="collapse" data-parent=".faq-list">
+            <a data-toggle="collapse" class="text-right" href="#faq3"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> فرآیند شناسایی نیازمندها توی این سامانه چطوریه؟ <i class="icofont-simple-up"></i></a>
+            <div id="faq3" class="collapse text-right" data-parent=".faq-list"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
               <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-              </p>
-            </div>
+                ما همه دقت‌مون و چک‌کردن‌های تصادفی و دوره ای مون رو روی مراکز انجام میدیم و مرکزهامون که همون خیریه‌ها و ان‌جی‌او‌ها هستن کم‌کم توی سیستم دانه معتبر میشن. برای همین وظیفه شناسایی نیازمندها هم با اونهاست و ما همچنان مرتب چک می‌کنیم، البته هر کدوم برای خودشون روشی دارن که ما از جزئیات روش اونا لزوماً لازم هم نیست اطلاع داشته‌باشیم ولی نتایج رو همیشه چک می‌کنیم.            </div>
           </li>
-
           <li>
-            <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="icofont-simple-up"></i></a>
-            <div id="faq4" class="collapse" data-parent=".faq-list">
+            <a data-toggle="collapse" class="text-right" href="#faq4"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> چطور می‌فهمین که نیازمندهایی که توی سامانه ثبت شدن واقعاً نیازمندن؟ <i class="icofont-simple-up"></i></a>
+            <div id="faq4" class="collapse text-right" data-parent=".faq-list"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
+                ما توی سامانه یه مفهومی داریم به نام مرکز، همه‌ی خیریه‌ها و ان‌جی‌اوها و جاهایی مثل اینا، می‌تونن خودشون رو به عنوان مرکز توی این سامانه ثبت کنن. بعدش نیازمندها با مراجعه به این مراکز می‌تونن نیازشون رو اطلاع بدن و خودشون رو به عنوان نیازمند ثبت کنن. پس مراکز ارتباط مستقیم با نیازمندها دارن، و ادامه‌ی این ارتباط می‌تونه سنجش خوبی باشه برای واقعیت نیازها و نیازمندهای ثبت شده. خودمون هم به طور تصادفی از این خانواده ها بازدید می‌کنیم.
 
+              </div>
+          </li>
           <li>
-            <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="icofont-simple-up"></i></a>
-            <div id="faq5" class="collapse" data-parent=".faq-list">
+            <a data-toggle="collapse" class="text-right" href="#faq5"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">میتونیم بهتون نیازمند معرفی کنیم؟ راهکار دانه برای نیازمندها چیه؟ <i class="icofont-simple-up"></i></a>
+            <div id="faq5" class="collapse text-right" data-parent=".faq-list"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
               <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-              </p>
-            </div>
-          </li>
+                ما چون خودمون خیریه نیستیم نمیتونیم این کار رو انجام بدیم. اما راهکاری که برای این کار در نظر گرفتیم اینه که در آینده نیازمندان از دانه مراکز نزدیک به محدوده جغرافیاییشون رو پیدا کنن و بهش مراجعه کنند و بعد از بررسی مرکز خیریه و احراز نیازمندی، از طریق دانه بشه بهش کمک کرد
 
+              </div>
+          </li>
           <li>
-            <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="icofont-simple-up"></i></a>
-            <div id="faq6" class="collapse" data-parent=".faq-list">
+            <a data-toggle="collapse" class="text-right" href="#faq6"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">چطوری دانه جلوی موازی‌کاری مراکز خیریه رو می‌گیره؟ <i class="icofont-simple-up"></i></a>
+            <div id="faq6" class="collapse text-right" data-parent=".faq-list"  style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
               <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-              </p>
-            </div>
-          </li>
+                به محض اینکه یک مرکز خیریه بخواد نیازمند جدیدی ثبت کنه، دانه بهش نشون میده که این نیازمند از قبل در خیریه‌های دیگه‌ای عضو هست و به این شکل همه این مراکز، نیازهای ثبت شده و کمک‌های اهدا شده به اون نیازمند رو مشاهده می‌کنند البته هر خیریه فقط اطلاعات ثبت شده مرکز خودش رو می‌بینه مگر اینکه نیازمندی مشترک بین چند خیریه باشه.
 
+
+              </div>
+          </li>
         </ul>
 
       </div>
@@ -532,19 +559,47 @@
       <div class="container ">
 
         <div class="section-title">
-          <h2 class="font-weight-bolder" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">درباره ما</h2>
+          <h2 class="font-weight-bolder" style="font-family: 'Vazir-Light', Fallback, sans-serif;">درباره ما</h2>
         </div>
 
         <div class="row">
           
           <div class="col-lg-12 pt-4 pt-lg-1 order-2 order-lg-1">
-            <h3 class="font-weight-bold" align="right">کمک رسانی هدفمند به خیریه ها</h3>
+            <h2 style="font-size:larger; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; align:right">کمک رسانی هدفمند به خیریه ها</h3>
            
            
-            <p align="right" style="font-size:larger; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <p style="font-size:larger; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; align:right">
               دانه پلتفرمی است که در ان لیست جامع خیریه های اصفهان که دارای مجوز هستند جمع شدند و کاربران به راحتی میتونند با خیریه‌ها و گلریزون های آن آشنا بشند و به راحتی در آن شرکت کنند
             </p>
+            <br>
+          <br>
           </div>
+          
+          <div class="col-lg-12 pt-4 pt-lg-1 order-2 order-lg-1">
+            <h2 style="font-size:larger; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; align:right">راه حلی امروزی تر برای رفع نیاز نیازمندان
+            </h3>
+           
+           
+            <p  style="font-size:larger; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; align:right">
+              همه می دونیم که خیلی از هموطنامون تو وضعیت خوبی به سر نمی برن، و همه مون باید هر کاری از دستمون بر میاد براشون انجام بدیم، دانه هم حاصل کار چند تا جوون ه که با این فکر اومدن و دست به کار شدند. با خیریه ها و ان جی او های دیگه هم قرار نیست رقابت کنن، اتفاقاً همه ی تلاش در جهت اینه که خود اونها موثرتر بیان وسط گود و بتونن بهتر کارشون رو انجام بدن، و فرآیند کمک رسانی به هموطنانمون تو فضای شفاف تری انجام بشه.
+
+            </p>
+            <br>
+            <br>
+          </div>
+          <div class="col-lg-12 pt-4 pt-lg-1 order-2 order-lg-1">
+            <h2 style="font-size:larger; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  align:right">پلت فرم هوشمند دانه
+            </h3>
+           
+           
+            <p  style="font-size:larger; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; align:right">
+              دانه پلت فرم هست یعنی که هم موسسات خیریه از امکانات اون استفاده می‌کنند و هم از سوی دیگه توانمندان هستند که گزینه‌های مورد نظرشون رو توی دانه پیدا می‌کنند و بهشون کمک می‌کنند. حالا یا کمک به وسیله اهدای کامل، یا پرداخت نقدی همه یا بخشی از مبلغ معادل برای تامین اون نیاز، و یا استفاده از گلریزون و جمع کردن مبلغ معادل از طریق شبکه دوستان و آشنایان. گروه‌های مختلف از نیازها توسط خیریه های عضو دانه بررسی و ثبت می شن تا توانمندان به بهترین نحو و در سریع ترین زمان بتونن نیاز مرتبط با توانشون رو شناسایی کنن، که از طرف خیریه مربوطه ارتباط با فرد توانمند برقرار میشه و توان ارائه شده به دست نیازمند می رسه.
+
+            </p>
+            <br>
+          <br>
+          </div>
+          
         </div>
 
       </div>
@@ -554,12 +609,13 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Our Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 class="font-weight-bolder" style="   font-family: 'Vazir-Light', Fallback, sans-serif;">تیم ما</h2>
+
+         <!-- <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> تیم ما گروهی از افراد با انگیزه و خیر هست که دور هم جمع شدند</p>-->
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <!--<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/team-1.jpg" alt="">
               <h4>Walter White</h4>
@@ -575,37 +631,42 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        -->
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
-              <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+              <img src="photo_2021-03-17_09-12-44.jpg" alt="">
+              <h4 style="font-family: 'Vazir-Light', Fallback, sans-serif;">به افرین امام</h4>
+              <span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">توسعه دهنده بک اند
+              </span>
+              <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                دانشجوی مهندسی نرم افزار دانشگاه اصفهان
+                <br>
+                data science متخصص در 
               </p>
               <div class="social">
-                <a href=""><i class="icofont-twitter"></i></a>
-                <a href=""><i class="icofont-facebook"></i></a>
-                <a href=""><i class="icofont-instagram"></i></a>
-                <a href=""><i class="icofont-linkedin"></i></a>
+                <a href="https://twitter.com/behafarin" target="_blank"><i class="icofont-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/behafarinemam/" target="_blank" ><i class="icofont-linkedin"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-3.jpg" alt="">
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+              <img src="photo_2021-03-17_09-14-11.jpg" alt="">
+              <h4 style="font-family: 'Vazir-Light', Fallback, sans-serif;">علی ماهوش</h4>
+              <span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">توسعه دهنده فرانت اند</span>
+              <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                دانشجوی نرم افزار مهندسی کامپیوتر دانشگاه اصفهان
+                <br>
+                ENFP فردی علاقه مند به کار گروهی و هیجان با تیپ شخصیتی
+     <br>
+                front-end, software engineer, project management علاقه مند
               </p>
               <div class="social">
-                <a href=""><i class="icofont-twitter"></i></a>
-                <a href=""><i class="icofont-facebook"></i></a>
-                <a href=""><i class="icofont-instagram"></i></a>
-                <a href=""><i class="icofont-linkedin"></i></a>
+                <a href="https://twitter.com/ali_mahvash" target="_blank"><i class="icofont-twitter"></i></a>
+                <a href="https://www.facebook.com/ali.mahvash.9/" target="_blank"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/ali_mahvash.m/" target="_blank"><i class="icofont-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ali-mahvash-745b1b194/" target="_blank"><i class="icofont-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -621,73 +682,95 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact Us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 class="font-weight-bolder" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">ارتباط با ما</h2>
+          <p  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"></p>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6">
-            <div class="contact-about">
-              <h3>Amoeba</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
-              <div class="social-links">
+         
+        <div class="col-lg-3 col-md-6">
+            <div class="info">
+            
+          </div>
+        </div>
+
+          <div class="col-lg-6 col-md-4">
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: right; font-weight: lighter;">پیامتون را برای ما ارسال کنید</h4>
+            <br>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-group">
+                <input style="text-align: right; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: right; font-weight: lighter;" type="text" name="name" class="form-control" id="name" placeholder="نام" data-rule="minlen:4" data-msg="حداقل 4 حرف باید وارد شود" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input style="text-align: right; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: right; font-weight: lighter;" type="email" class="form-control" name="email" id="email" placeholder="فامیل" data-rule="email" data-msg="لطفا ایمیل معتبر وارد کنید" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input style="text-align: right; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: right; font-weight: lighter;" type="text" class="form-control" name="subject" id="subject" placeholder="موضوع" data-rule="minlen:4" data-msg="حداقل 8 حرف باید وارد شود" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group ">
+                <textarea style="text-align: right; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: right; font-weight: lighter;" class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="لطفا پیام خود را وارد کنید"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">منتظر بمانید</div>
+                <div class="error-message"></div>
+                <div class="sent-message">پیام شما با موفقیت ارسال شد</div>
+              </div>
+              <div class="text-center"><button type="submit">ارسال پیام</button></div>
+            </form>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+          
+            <br>
+            <br>
+            <br>
+              
+            <br>
+            <br>
+              
+            
+         
+            
+            <div class="contact-about float-right">
+              <div>
+                <i class="icofont-google-map float-right"></i>
+                <p class="float-right" style="text-align: right; font-weight: 500; font-size: light; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">&nbsp;&nbsp;اصفهان&nbsp;&nbsp;<br>&nbsp;&nbsp;دانشگاه اصفهان&nbsp;&nbsp;</p>
+              </div>
+              <br>
+              <br>
+              <br>
+              
+              <div class="float-right">
+                <i class="icofont-envelope float-right "></i>
+                <p class="float-right"style="font-size: light; font-weight: 700; ">&nbsp;&nbsp;dane@support.com&nbsp;&nbsp;</p>
+              </div>
+              <br>
+              
+              <br>
+              <div >
+                <i class="icofont-phone float-right "></i>
+                <p class="float-right"style="font-size: light; font-weight: 700; ">&nbsp;&nbsp;0313-111-0000&nbsp;&nbsp;</p>
+              </div>
+              <br>
+              
+              <br>
+            
+            </div>
+            
+                <div class="social-links float-right">
                 <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
                 <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
                 <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
                 <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
               </div>
-            </div>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info">
-              <div>
-                <i class="icofont-google-map"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
-
-              <div>
-                <i class="icofont-envelope"></i>
-                <p>info@example.com</p>
-              </div>
-
-              <div>
-                <i class="icofont-phone"></i>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-12">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
+      
 
       </div>
     </section><!-- End Contact Us Section -->
@@ -704,14 +787,14 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Amoeba</span></strong>. All Rights Reserved
+ <!--       &copy; Copyright <strong><span>Amoeba</span></strong>. All Rights Reserved-->
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="#">Behafarin Emam &</a><a href="#">&nbsp;Ali Mahvash</a>
       </div>
     </div>
   </footer><!-- End #footer -->
